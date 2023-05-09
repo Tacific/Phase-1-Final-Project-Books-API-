@@ -3,30 +3,35 @@
     "id": 1,
     "name": "Everest",
     "title":"Snow Mountain",
+    "cost": "$4500",
     "img": "https://upload.wikimedia.org/wikipedia/commons/2/22/Everest%2C_Nepal%2C_Himalayas.jpg"
 },
 {
     "id": 2,
     "name": "Topa Topa",
     "title":"Stone Mountain",
+    "cost": "$1500",
     "img": "https://upload.wikimedia.org/wikipedia/commons/5/51/Topa_Topa_Mountains_from_Ojai.jpg"
 },
 {
     "id": 3,
     "name": "Dughla",
     "title":"Lone Journey",
+    "cost" : "$2300",
     "img": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Dughla%2C_Remote_view%2C_Mountains_of_Nepal.jpg"
 },
 {
     "id": 4,
     "name": "Mount Ararat",
     "title":"Farm View",
+    "cost" : "$1300",
     "img": "https://upload.wikimedia.org/wikipedia/commons/6/61/Mount_Ararat_and_the_Araratian_plain_%28cropped%29.jpg"
 },
 {
     "id": 5,
     "name": "Pienini Mountain",
     "title":"Green Feilds",
+    "cost": "$1100",
     "img": "https://upload.wikimedia.org/wikipedia/commons/8/87/Pienini_Mountains_near_Lesnica.jpg"
 }
 ]}
