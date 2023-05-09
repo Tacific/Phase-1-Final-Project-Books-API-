@@ -1,8 +1,10 @@
-const apiLink = "http://localhost:3000/toys";
 
 document.addEventListener("DOMContentLoaded", () => {
-    fetch ("db.json")
+    fetch ("http://localhost:3000/books")
     .then(response => response.json())
-    .then(data => data.forEach(books => /*PUT A FUNCTION in Headers*/ (books)))
+    .then(data => console.log(data))
 
 })
+function dispalyBooks(book){
+    const bookObj = document.createElement('ul')
+}

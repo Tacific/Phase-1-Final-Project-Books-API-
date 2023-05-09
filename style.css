@@ -1,0 +1,18 @@
+.bodyColor {
+    background-color: #1323d0";
+}
+
+
+#midPic {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+} 
+#formId{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-left: 15rem;
+}
