@@ -38,3 +38,10 @@ body{
 h2 {
     text-align: center;
 }
+
+#parentDiv {
+
+    display: flex;
+    width: 100%;
+
+}
