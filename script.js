@@ -19,3 +19,9 @@ const addPlaces = (dataArray) => {
 
     //getElementById and assign to variable
     const mountContainer = document.getElementById("mount-container")
+
+    //create forEach to Loop
+dataArray.forEach(element => {
+    const img = document.createElement('img')
+    img.src = element.img
+    
