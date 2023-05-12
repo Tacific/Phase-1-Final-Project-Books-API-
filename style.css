@@ -26,3 +26,11 @@ body{
     margin-bottom: auto;
     
 }
+
+#suitCase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: unset;
+    
+}
