@@ -12,3 +12,10 @@ const form = document.querySelector("form")
 form.addEventListener("submit",(e) =>{
     e.preventDefault(),
     console.log(e)})
+
+
+    //Create function to append with addEventListner
+const addPlaces = (dataArray) => {
+
+    //getElementById and assign to variable
+    const mountContainer = document.getElementById("mount-container")
