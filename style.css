@@ -57,3 +57,16 @@ h2 {
 }
 
 #p-Tag {
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+    /* border-style: dotted; */
+    border-radius: 25px;
+    text-align: center;
+
+    margin-right: 0px;
+}
+
+li {
+    text-align: auto;
+}
