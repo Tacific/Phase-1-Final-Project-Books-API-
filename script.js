@@ -45,3 +45,6 @@ pTag.appendChild(pCost)
 //append img
 mountContainer.appendChild(img)});
 };
+
+
+
