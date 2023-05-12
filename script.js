@@ -10,8 +10,7 @@ const fetchAPI = () => {
     //Stop Reload addEventListner
 const form = document.querySelector("form")
 form.addEventListener("submit",(e) =>{
-    e.preventDefault(),
-    console.log(e)})
+    e.preventDefault()})
 
 
     //Create function to append with addEventListner
