@@ -41,3 +41,7 @@ const pName = document.createElement("li")
 pCost.textContent = element.cost
 pTag.appendChild(pCost)
 })
+
+//append img
+mountContainer.appendChild(img)});
+};
