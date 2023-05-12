@@ -6,3 +6,9 @@ const fetchAPI = () => {
     }
     //Have to call function
     fetchAPI()
+
+    //Stop Reload addEventListner
+const form = document.querySelector("form")
+form.addEventListener("submit",(e) =>{
+    e.preventDefault(),
+    console.log(e)})
