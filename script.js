@@ -25,3 +25,11 @@ dataArray.forEach(element => {
     const img = document.createElement('img')
     img.src = element.img
     
+
+    //add Event Listner to click on img
+img.addEventListener("click", (e) => {
+    const pTag = document.getElementById("p-Tag")
+    const pTitle = document.createElement("p")
+    pTitle.textContent = element.title
+    pTag.append(pTitle)
+    
