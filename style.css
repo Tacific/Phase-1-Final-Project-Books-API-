@@ -16,4 +16,13 @@ body{
     background-color: rgb(146, 41, 47);
 }
 
-
+#midPic{
+    width: 850px;
+    height: 300px;
+    border: 10px solid black;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: auto;
+    
+}
