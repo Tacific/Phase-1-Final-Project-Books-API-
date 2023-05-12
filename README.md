@@ -11,7 +11,9 @@ info on the avaiable books.  The data base is local (db.json).
 
 
 ## Instructions
-User will create Library Card via submit Form.
+User will create Library Card via submit Form. <br>
+User can rest input feilds by clicking rest button.
+
 ```html
  <form>
         <label for="fname">First Name:</label><br>
@@ -22,7 +24,8 @@ User will create Library Card via submit Form.
         <input type="reset" value="Clear Form" />
 </form> 
 ```
-After user submit info, user will click on images to get info for Books.
+After user submit info, user will click on images to get info for Books. <br>
+After clicking information will populate.
 
 ### Important Note
 After user hit submit button the page will reload.  To prevent such an event, **e.preventDefault()** will be used to prevent a reload.
@@ -42,3 +45,7 @@ Pull requests are welcome.  This is a Student project.
 # Credit for Images 
 
 [Pixabay](https://pixabay.com/images/search/books/)
+
+# More Info
+
+[Blog Post](https://dev.to/tacific/what-is-a-form-4dgn)
