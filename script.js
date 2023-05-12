@@ -1,6 +1,6 @@
 //Assign fetch to variable
 const fetchAPI = () => {
-    fetch("http://localhost:3000/mountains")
+    fetch("http://localhost:3000/books")
     .then(response => response.json())
     .then(places => addPlaces(places))
     }
