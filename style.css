@@ -45,3 +45,15 @@ h2 {
     width: 100%;
 
 }
+
+#mount-container {
+    border: 5px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+    border-radius: 20px;
+    flex: 1;
+    margin: 10px;
+}
+
+#p-Tag {
