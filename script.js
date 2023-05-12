@@ -33,3 +33,6 @@ img.addEventListener("click", (e) => {
     pTitle.textContent = element.title
     pTag.append(pTitle)
     
+const pName = document.createElement("li")
+    pName.textContent = element.name
+    pTag.append(pName)
