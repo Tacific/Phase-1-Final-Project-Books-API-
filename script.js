@@ -7,17 +7,10 @@ const fetchAPI = () => {
     //Have to call function
     fetchAPI()
 
-
-    
     //Stop Reload addEventListner
 const form = document.querySelector("form")
 form.addEventListener("submit",(e) =>{
     e.preventDefault()})
-
-
-
-
-
 
 
     //Create function to append with addEventListner
@@ -51,6 +44,4 @@ pTag.appendChild(pCost)
 //append img
 mountContainer.appendChild(img)});
 };
-
-
 
