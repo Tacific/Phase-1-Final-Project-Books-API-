@@ -1,23 +1,18 @@
 # Phase-1-Final-Project-Books-API-Local-JSON
 
-This is a API/ local JSON data base Project Phase-1 
+This is a Single Page Application using API/localJSON data base.
 HTML/CSS/JavaScript.
 
-## This is a Library App
+## Description 
 
-The purpose of this App is to allow the user to create a Library Card and get 
-info on the avaiable books.  The data base is local (db.json).
-
-
-
-## Instructions
-User will create Library Card via submit Form. <br>
-User can rest input feilds by clicking rest button.<br>
-
+This is a Library App. The purpose of this App is to allow the user to create a Library Card and get 
+info on the avaiable books.  The data base is local (db.json).  
 
 ![Library Final](https://github.com/Tacific/Phase-1-Final-Project-Books-API-/assets/122184578/f15ae3ea-2981-4997-9059-399437cfba15)
 
-
+## Instructions
+Project is using a local db.json file.<br>
+User will create Library Card via submit Form. <br>
 ```html
  <form>
         <label for="fname">First Name:</label><br>
@@ -28,8 +23,11 @@ User can rest input feilds by clicking rest button.<br>
         <input type="reset" value="Clear Form" />
 </form> 
 ```
-After user submit info, user will click on images to get info for Books. <br>
-After clicking information will populate.
+The user can enter their name in the input section. 
+User can rest form.  
+Pictures is clickable.  
+Once clicked information will pop-up.  
+User can clear info by pressing clearInfo button. 
 
 ### Important Note
 After user hit submit button the page will reload.  To prevent such an event, **e.preventDefault()** will be used to prevent a reload.
