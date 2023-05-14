@@ -15,6 +15,7 @@ User will create Library Card via submit Form. <br>
 User can rest input feilds by clicking rest button.<br>
 
 
+![Library Final](https://github.com/Tacific/Phase-1-Final-Project-Books-API-/assets/122184578/f15ae3ea-2981-4997-9059-399437cfba15)
 
 
 ```html
@@ -49,6 +50,3 @@ Pull requests are welcome.  This is a Student project.
 
 [Pixabay](https://pixabay.com/images/search/books/)
 
-# More Info
-
-[Blog Post](https://dev.to/tacific/what-is-a-form-4dgn)
