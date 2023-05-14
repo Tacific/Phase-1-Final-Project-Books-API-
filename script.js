@@ -1,3 +1,6 @@
+document.addEventListener('DOMContentLoaded', () => {
+    fetchAPI()})
+
 //Assign fetch to variable
 const fetchAPI = () => {
     fetch("http://localhost:3000/books")
@@ -5,12 +8,13 @@ const fetchAPI = () => {
     .then(places => addPlaces(places))
     }
     //Have to call function
-    fetchAPI()
+    //fetchAPI()
 
     //Stop Reload addEventListner
 const form = document.querySelector("form")
 form.addEventListener("submit",(e) =>{
     e.preventDefault()})
+    
 
 
     //Create function to append with addEventListner

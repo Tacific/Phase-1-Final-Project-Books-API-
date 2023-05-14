@@ -9,32 +9,36 @@
     <title>My Personal Library</title>
 </head>
 <body>
-    <h2>Free Library App</h2>
-    <header>
-        <div id="suitCase">
-            <img src="https://cdn.pixabay.com/photo/2016/03/26/22/21/books-1281581_960_720.jpg" id="midPic">
+    <h2 id="title">Free Library App</h2>
+    <!-- <header id="headerSec"> -->
+    <!-- <section id="section-block"></section> -->
+        <div id="top-section">
+            <img id="libraryPic" src="https://cdn.pixabay.com/photo/2016/03/26/22/21/books-1281581_960_720.jpg" >
             <h1 id="library">Create Library Card</h1>
-            
-            
-            
-            <form>
+        </div>
+    
+
+            <form id="user-form">
                 <label for="first">First Name:</label><br>
                 <input type="text" id="first" name="first" value=" "><br>
                 <label for="last">Last Name:</label><br>
                 <input type="text" id="last" name="last" value=" "><br><br>
                 <button id="submitbtn" type="submit">Sumbit</button><br><br>
                 <input type="reset" value="Clear Form" />
-              </form> 
+            </form> 
               
               
-        </div>
-    </header>
+        
+        
+    <!-- </header> -->
 
-    <h2>Click On Image for Info</h2>
+    <h2 id="click-Img">Click On Image for Info</h2>
     <!-- used flex box method to both divs side by side -->
     <div id="parentDiv">
     <div id="mount-container"></div>
-    <div id="p-Tag"></div>
+    <div id="p-Tag">
+        <h1>Info</h1>
+    </div>
     </div>
 </body>
 </html>

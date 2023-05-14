@@ -1,37 +1,73 @@
-h2{
-    font-size: 50px;
-}
-
-header {
-    background-color: rgb(58, 179, 148);
-    text-align: center;
-    border: 10px solid black;
-    padding-bottom: 20px;
-    border-radius: 20px;
-}
-
 body{
     background-color: rgb(146, 41, 47);
 }
 
-#midPic{
-    width: 850px;
-    height: 300px;
+#title{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+#section-block{
+    background-color: rgb(22, 175, 116);
+    display: block;
     border: 10px solid black;
+    width: 100%;
+    height: auto; 
+    border: 5px solid black;
+    border-radius: 50px;
+}
+
+
+#top-section{
+    display: flex;
+    border: 5px solid black;
+    background-color: rgb(22, 175, 116);
+    border-radius: 25px;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+    width: 100%;
+    height: auto;
     margin-left: auto; 
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: auto;
 }
 
-#suitCase{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: unset;
+#libraryPic{
+    width: 90%;
+    height: auto;
+    border: 10px solid black;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: auto;
+    display: block;
+    text-align: center;
+    
 }
 
-h2 {
+#library{
+    text-align: center;
+}
+
+#user-form{
+    background-color: rgb(171, 180, 177);
+    border-radius: 25px;
+    border: 5px solid black;
+    width: 200px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    display: block;
+    text-align: center;
+}
+
+#click-Img{
     text-align: center;
 }
 
@@ -48,16 +84,19 @@ h2 {
     border-radius: 20px;
     flex: 1;
     margin: 10px;
+    background-color: rgba(171, 180, 177, 0.308);
 }
 
 #p-Tag {
     margin: 1rem;
     padding: 2rem 2rem;
     text-align: center;
-    /* border-style: dotted; */
+    border: 5px dotted black;
+
     border-radius: 25px;
     text-align: center;
     margin-right: 0px;
+    background-color: rgba(171, 180, 177, 0.308);
 }
 
 li {
