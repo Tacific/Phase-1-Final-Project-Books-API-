@@ -91,8 +91,7 @@ body{
     margin: 1rem;
     padding: 2rem 2rem;
     text-align: center;
-    border: 5px dotted black;
-
+    /* border: 5px dotted black; */
     border-radius: 25px;
     text-align: center;
     margin-right: 0px;
@@ -133,3 +132,12 @@ img {
     border-radius: 20px;
 }
 
+#clear-btn{
+    margin-left: 6px;
+
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 25px;
+    
+   
+}

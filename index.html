@@ -23,7 +23,7 @@
                 <input type="text" id="first" name="first" value=" "><br>
                 <label for="last">Last Name:</label><br>
                 <input type="text" id="last" name="last" value=" "><br><br>
-                <button id="submitbtn" type="submit">Sumbit</button><br><br>
+                <button id="submitbtn"  type="submit">Sumbit</button><br><br>
                 <input type="reset" value="Clear Form" />
             </form> 
               
@@ -33,14 +33,15 @@
     <!-- </header> -->
 
     <h2 id="click-Img">Click On Image for Info</h2>
-    <!-- used flex box method to both divs side by side -->
+    <!-- used flex box method to both divs side by side
+    created parentDiv for styling -->
     <div id="parentDiv">
-    <div id="books-container"></div>
-    <div id="p-Tag">
-        <h1>Info</h1>
-        <span class="close">&times;</span>
+        
+        <div id="p-Tag"></div>
+        <div id="books-container"></div>
+
     </div>
-    </div>
+    <button id="clear-btn" onclick="clearDiv()">clearInfo</button><br>
 </body>
 </html>
 

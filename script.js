@@ -23,16 +23,16 @@ const addPlaces = (dataArray) => {
 //getElementById and assign to variable
     const mountContainer = document.getElementById("books-container")
 
-    //create forEach to Loop
+    //create forEach to Loop for images
 dataArray.forEach(element => {
     const img = document.createElement('img')
     img.src = element.img
     
-
     //add Event Listner to click on img
 img.addEventListener("click", (e) => {
-    const pTag = document.getElementById("p-Tag")
-    const pTitle = document.createElement("p")
+
+const pTag = document.getElementById("p-Tag")
+const pTitle = document.createElement("p")
     pTitle.textContent = element.title
     pTag.append(pTitle)
     
@@ -40,12 +40,19 @@ const pName = document.createElement("li")
     pName.textContent = element.name
     pTag.append(pName)
 
-    const pCost = document.createElement("li")
-pCost.textContent = element.cost
-pTag.appendChild(pCost)
+const pCost = document.createElement("li")
+    pCost.textContent = element.cost
+    pTag.appendChild(pCost)
+
+
 })
 
 //append img
 mountContainer.appendChild(img)});
 };
+
+//function for btn to clear info
+function clearDiv() {
+    let div = document.getElementById("p-Tag");
+    div.replaceChildren();}
 
