@@ -14,7 +14,7 @@ info on the avaiable books.  The data base is local (db.json).
 User will create Library Card via submit Form. <br>
 User can rest input feilds by clicking rest button.<br>
 
-![Library Final](https://github.com/Tacific/Phase-1-Final-Project-Books-API-/assets/122184578/77a18a4f-5d21-4c61-8ebd-9a3d40a513c3)
+
 
 
 ```html
