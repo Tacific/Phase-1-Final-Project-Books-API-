@@ -15,13 +15,13 @@ const form = document.querySelector("form")
 form.addEventListener("submit",(e) =>{
     e.preventDefault()})
     
+///////////////////////////////////////////////////////////////////////////////////////
 
-
-    //Create function to append with addEventListner
+//Create function to append with addEventListner
 const addPlaces = (dataArray) => {
 
-    //getElementById and assign to variable
-    const mountContainer = document.getElementById("mount-container")
+//getElementById and assign to variable
+    const mountContainer = document.getElementById("books-container")
 
     //create forEach to Loop
 dataArray.forEach(element => {
