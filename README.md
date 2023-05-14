@@ -24,7 +24,7 @@ User will create Library Card via submit Form. <br>
 </form> 
 ```
 The user can enter their name in the input section. 
-User can rest form.  
+User can clear form.  
 Pictures is clickable.  
 Once clicked information will pop-up.  
 User can clear info by pressing clearInfo button. 
